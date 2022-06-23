@@ -1,4 +1,3 @@
-# Capstone-with-PIMCO
 
 
 Data Folder : 
@@ -37,14 +36,14 @@ a.	this part of the notebook is used for getting the highlight direction word in
 b.	output:
 i.	excel with information of the direction word in the sentence and the corresponding	direction word in the dictionary as well as their similarity.
 ii.	For each sentence, we return 7 lists (because there might be more than one direcitonality words in one sentence):
-1.	list of indices of directionality words
-2.	list of indices of corresponding dictionary words
-3.	list of directionality words
-4.	list of corresponding dictionary words
-5.	list of similarities (between 0 and 1)
-6.	list of number of negative words in front of the directionality words. We only consider two words preceding the directionality words.
-7.	list of directionalities
-6.	Directionality Analyzing Algorithms：
+    list of indices of directionality words
+    list of indices of corresponding dictionary words
+    list of directionality words
+    list of corresponding dictionary words
+    list of similarities (between 0 and 1)
+    list of number of negative words in front of the directionality words. We only consider two words preceding the directionality words.
+    list of directionalities
+    Directionality Analyzing Algorithms：
 Unsupervised model:Directionality_Analyzing_Algorithms_unsupervised.ipynb 
 a.	get the prediction of the directionality based on our unsupervised model.
 b.	For each sentence we return 16 types of directionality score
@@ -55,4 +54,4 @@ a.	input: prediction result and the financial index to compare with
 b.	output: simulation and evaluation of the performance of the portfolio.
 
 
-![image](https://user-images.githubusercontent.com/52937467/175197470-8f0e6910-34a2-4a31-bb57-d2bb01277433.png)
+![image](https://user-images.githubusercontent.com/52937467/175197549-9ccb368f-03a0-4ff5-86bc-bc726c5a25ba.png)
